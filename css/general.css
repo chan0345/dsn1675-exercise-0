@@ -6,6 +6,10 @@ body {
 	background-color: rgb(220, 220, 220);
 }
 
+main {
+	background-color: white;
+}
+
 h1, 
 h2 {
 	color: maroon;
@@ -32,9 +36,19 @@ aside {
 	background-color: rgb(237, 237, 237);
 }
 
+dl {
+	border: 1px solid red;
+	/*
+	This is a clearfix
+	It reminds the <dl> to wrap around all its floated children
+	*/
+	overflow: hidden;
+}
+
 dt {
 	float: left;
 	clear: left;
+	width: 8em;
 }
 
 dd {
