@@ -1,11 +1,9 @@
 body {
 	font-family: sans-serif;
-}
-
-main {
 	padding: 5%;
 	border: 1px;
 	border-radius: 6px;
+	background-color: grey;
 }
 
 h1, 
@@ -19,8 +17,25 @@ img {
 
 blockquote {
 	font-family: Georgia;
+	background-color: gray;
+}
+
+blockquote footer {
+	color: gray;
 }
 
 ul {
 	text-align: inline;
+}
+
+aside {
+	background-color: gray;
+}
+
+dt {
+	float: left;
+}
+
+dd {
+	float: left;
 }
