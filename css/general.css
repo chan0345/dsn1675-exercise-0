@@ -4,6 +4,8 @@ body {
 
 main {
 	padding: 5%;
+	border: 1px;
+	border-radius: 6px;
 }
 
 h1, 
