@@ -3,7 +3,7 @@ body {
 	padding: 5%;
 	border: 1px;
 	border-radius: 6px;
-	background-color: grey;
+	background-color: rgb(237, 237, 237);
 }
 
 h1, 
@@ -17,7 +17,7 @@ img {
 
 blockquote {
 	font-family: Georgia;
-	background-color: gray;
+	background-color: rgb(237, 237, 237);
 }
 
 blockquote footer {
@@ -29,7 +29,7 @@ ul {
 }
 
 aside {
-	background-color: gray;
+	background-color: rgb(237, 237, 237);
 }
 
 dt {
@@ -38,4 +38,6 @@ dt {
 
 dd {
 	float: left;
+	margin: 0;
+	padding: 0;
 }
